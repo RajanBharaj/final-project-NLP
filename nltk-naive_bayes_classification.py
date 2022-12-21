@@ -60,7 +60,7 @@ classifier = nltk.NaiveBayesClassifier.train(train_x)
 
 # display accuracy of tested model
 accuracy = nltk.classify.util.accuracy(classifier, test_x)
-print("Accuracy:", accuracy)
+print("\nAccuracy:", accuracy, "\n-------------------------")
 
 classifier.show_most_informative_features()
 
