@@ -1,6 +1,7 @@
 # Import modules
 import os
 import re
+import math
 import random
 import pickle
 import pandas as pd
@@ -208,9 +209,7 @@ def calculate_polarity(description, model, token, max_len):
     return pol_gen[0][0]
 
 def predict_rating(pol):
-    rating = round(pol*10)
-    if rating < 1:
-        rating = 1
+    rating = math.ceil(pol*10)
     return rating
 
 def calculate_disparity(r): 
@@ -430,7 +429,7 @@ print("\nAll testing will be performed on the complete test set [25,000 reviews]
 
 for res in responses:
     print("\nTotal reviews tested: ", len(test_set))
-    print(res.name, "- model training score: %.3f" %res.score, "%")
+    print(res.name, "- model training loss-score: %.3f" %res.score, "%")
     print(res.name, "- model training accuracy: %.3f" %res.accuracy, "%")
     print(res.name, "- model testing rating disparity [mean avg.]: %.3f" %res.total_disparity, "%")
     print(res.name, "- model testing rating accuracy [mean avg.]: %.3f" %res.total_accuracy, "%")
