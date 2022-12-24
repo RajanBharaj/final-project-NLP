@@ -3,7 +3,7 @@
 
 Improving sentiment analyses using objectivity classification. We intend to explore the relationship between objectivity and sentiment analysis by pre-sanitizing our review dataset with nltk's Naive Bayes Classification model which was trained to define objectivity using the 'rotten_imdb' dataset. We then trained an LSTM model using different training sets and tested on IMDB's Large Movie Review dataset to see if pre-santizing data has an impact on sentiment analysis.
 
-- Authored by Rajan Bharaj and Sangeyl Lee 
+> Authored by Rajan Bharaj and Sangeyl Lee 
 
 ## Instructions for use
 ### Enviroment 
