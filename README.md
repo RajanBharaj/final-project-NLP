@@ -8,7 +8,7 @@ Improving sentiment analyses using objectivity classification. We intead to expl
 
 - Using Python version 3.7.9, 64-bit (for tensorflow version 1.x)
 - Using Tensorflow version 1.15.0 (will not work with version 2.x)
-- Make sure you have installed all relevant python libraries to run programs [nltk, tensorflow, scikit-learn]
+- Make sure you have installed all relevant python libraries to run programs [nltk, tensorflow, scikit-learn, ...]
 
 ### Instructions
 

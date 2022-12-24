@@ -27,9 +27,9 @@ from nltk.tokenize.toktok import ToktokTokenizer
 from bs4 import BeautifulSoup
   
 # Folder Paths
-binary_path = "C:\\Users\\Raj\\Documents\\NYU\\Academic\\Senior_2020-22\\2021-2022\\Fall_2022\\NLP\\Final Project\\aclImdb\\binary_classification\\"
-train_path = "C:\\Users\\Raj\\Documents\\NYU\\Academic\\Senior_2020-22\\2021-2022\\Fall_2022\\NLP\\Final Project\\aclImdb\\train"
-test_path = "C:\\Users\\Raj\\Documents\\NYU\\Academic\\Senior_2020-22\\2021-2022\\Fall_2022\\NLP\\Final Project\\aclImdb\\test"
+binary_path = "Drive\\Users\\Location\\aclImdb\\binary_classification\\"
+train_path = "Drive\\Users\\Location\\aclImdb\\train"
+test_path = "Drive\\Users\\Location\\aclImdb\\test"
 
 # Classes
 class Review:
