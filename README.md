@@ -19,6 +19,10 @@ Improving sentiment analyses using objectivity classification. We intend to expl
 - Starting on line 4: Update folder paths of 'rating-automation.py' to match the location on your local machine
 - Run 'rating-automation.py'
 
+### Authors
+
+Rajan Bharaj and Sangeyl Lee 
+
 ## References
 
 1. Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. 2011. Learning Word Vectors for Sentiment Analysis. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142–150, Portland, Oregon, USA. Association for Computational Linguistics.
