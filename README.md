@@ -1,5 +1,5 @@
 # Natural Language Processing
-## Final Project - 'Sentiment Analyses of Movie Reviews: A Classification Problem'
+## 'Sentiment Analyses of Movie Reviews: A Classification Problem'
 
 Improving sentiment analyses using objectivity classification. We intead to explore the relationship between objectivity and sentiment analysis by pre-sanitizing our review dataset with nltk's Naive Bayes Classification model which was train to define objectivity. We then trained LSTM models using different training sets and tested on IMDB's Large Moview Review dataset to see if pre-santizing data has an impact on sentiment analysis.
 
